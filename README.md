@@ -1,10 +1,10 @@
-## Website
+BUILT WITH REACT # WEBSITE
 
 Warzone's website is built with React. This ties in with Warzone's [TGM](https://github.com/WarzoneMC/Warzone) project to display information like player leaderboards, individual player stats, as well as detailed match info.
 
 ## Contributing
 
-### Setup
+### Framework
 
 1. Setup the [API](https://github.com/WarzoneMC/api) and a Spigot server connected to the API running the [TGM](https://github.com/WarzoneMC/Warzone) plugin configured and running correctly. The API is what the website relies on to get info like player stats and match info.
 
@@ -20,7 +20,7 @@ Warzone's website is built with React. This ties in with Warzone's [TGM](https:/
 
 4. Start the development server with `yarn start` (or `npm run start`). You can also build the project with `yarn build` (or `npm run build`).
 
-### Developer Notes
+### DEVELOPER KEY NOTES
 
 - We use [Prettier](https://prettier.io/). If you want to setup Prettier locally make sure to use our `.prettierrc`. This is optional as we have a GitHub bot that formats files if they're not already formatted correctly.
 - The site was not built with self-hosting in mind. This means important links like the Discord server and store are hardcoded at the moment.
